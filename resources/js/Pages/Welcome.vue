@@ -59,11 +59,31 @@ defineProps({
                         Checker
                     </h2>
                     <p>
-                        A tool to help you evaluate projects for your Gitcoin
-                        rounds.
+                        Leveraging the Gitcoin Indexer, this tool simplifies the
+                        process for round managers to select projects for
+                        inclusion. By defining specific evaluation criteria,
+                        managers can utilize ChatGPT for automated project
+                        assessments and scoring.
                     </p>
-                    <a href="https://gitcoin.co">Gitcoin</a>
+                    <a
+                        href="https://gitcoin.co"
+                        target="_blank"
+                        class="text-blue-500 hover:underline"
+                        >Gitcoin</a
+                    >
                 </div>
+            </div>
+            <div class="p-3 flex">
+                <h2
+                    class="mt-6 text-xl font-semibold text-gray-900 dark:text-white"
+                >
+                    <Link
+                        :href="route('public.projects.index')"
+                        class="text-blue-500 hover:underline"
+                    >
+                        Projects
+                    </Link>
+                </h2>
             </div>
 
             <!-- <div class="mt-16">
